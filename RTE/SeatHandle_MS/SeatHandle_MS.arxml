@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AUTOSAR xmlns="http://autosar.org/schema/r4.0">
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 http://autosar.org/schema/r4.0/autosar40/cs/i">
   <AR-PACKAGES>
-    <AR-PACKAGE UUID="dbfec76b-7363-4513-8de5-aac82716156d">
+    <AR-PACKAGE UUID="7f9031b2-de1d-4d8f-87a6-29e20cb62f4e">
       <SHORT-NAME>BaseTypes</SHORT-NAME>
       <ELEMENTS>
-        <SW-BASE-TYPE UUID="44a8e53c-5523-44d3-af5e-2a8077909307">
+        <SW-BASE-TYPE UUID="3324af6b-4f38-404e-99a5-abb0721b8123">
           <SHORT-NAME>float32</SHORT-NAME>
           <CATEGORY>FIXED_LENGTH</CATEGORY>
           <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
@@ -12,7 +12,7 @@
           <MEM-ALIGNMENT>32</MEM-ALIGNMENT>
           <NATIVE-DECLARATION>float</NATIVE-DECLARATION>
         </SW-BASE-TYPE>
-        <SW-BASE-TYPE UUID="546b4f82-d8fb-4a6d-9b5b-7f361f43e13e">
+        <SW-BASE-TYPE UUID="95e5b4d5-706f-46eb-974e-e72e9f63015a">
           <SHORT-NAME>float64</SHORT-NAME>
           <CATEGORY>FIXED_LENGTH</CATEGORY>
           <BASE-TYPE-SIZE>64</BASE-TYPE-SIZE>
@@ -20,7 +20,7 @@
           <MEM-ALIGNMENT>64</MEM-ALIGNMENT>
           <NATIVE-DECLARATION>double</NATIVE-DECLARATION>
         </SW-BASE-TYPE>
-        <SW-BASE-TYPE UUID="37bc6542-61b8-44f8-bd24-60702f6519d1">
+        <SW-BASE-TYPE UUID="2ef779c9-c25a-4e96-8fd1-49cb95caff4c">
           <SHORT-NAME>sint16</SHORT-NAME>
           <CATEGORY>FIXED_LENGTH</CATEGORY>
           <BASE-TYPE-SIZE>16</BASE-TYPE-SIZE>
@@ -28,7 +28,7 @@
           <MEM-ALIGNMENT>16</MEM-ALIGNMENT>
           <NATIVE-DECLARATION>short</NATIVE-DECLARATION>
         </SW-BASE-TYPE>
-        <SW-BASE-TYPE UUID="9fc23139-2f32-4c4f-a7f6-18561d751e08">
+        <SW-BASE-TYPE UUID="56d1ae29-d67f-4035-bf6f-ee6d4ca04b6b">
           <SHORT-NAME>sint32</SHORT-NAME>
           <CATEGORY>FIXED_LENGTH</CATEGORY>
           <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
@@ -36,7 +36,7 @@
           <MEM-ALIGNMENT>32</MEM-ALIGNMENT>
           <NATIVE-DECLARATION>int</NATIVE-DECLARATION>
         </SW-BASE-TYPE>
-        <SW-BASE-TYPE UUID="21bd4dc5-5d60-4211-b06a-3c45616ddfe9">
+        <SW-BASE-TYPE UUID="e475d784-ce97-4586-bcaf-0287e4c9eb85">
           <SHORT-NAME>sint8</SHORT-NAME>
           <CATEGORY>FIXED_LENGTH</CATEGORY>
           <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
@@ -44,7 +44,7 @@
           <MEM-ALIGNMENT>8</MEM-ALIGNMENT>
           <NATIVE-DECLARATION>signed char</NATIVE-DECLARATION>
         </SW-BASE-TYPE>
-        <SW-BASE-TYPE UUID="90abcfc2-1ea0-4cbb-98e4-06bf093397f2">
+        <SW-BASE-TYPE UUID="a7815994-bc6f-4ecb-84e4-7fb3f8449231">
           <SHORT-NAME>uint16</SHORT-NAME>
           <CATEGORY>FIXED_LENGTH</CATEGORY>
           <BASE-TYPE-SIZE>16</BASE-TYPE-SIZE>
@@ -52,7 +52,7 @@
           <MEM-ALIGNMENT>16</MEM-ALIGNMENT>
           <NATIVE-DECLARATION>unsigned short</NATIVE-DECLARATION>
         </SW-BASE-TYPE>
-        <SW-BASE-TYPE UUID="1e4cf4a8-2c9e-4001-b91f-202dfa37aff5">
+        <SW-BASE-TYPE UUID="efba57db-57f5-4309-8973-2ece025b81f6">
           <SHORT-NAME>uint32</SHORT-NAME>
           <CATEGORY>FIXED_LENGTH</CATEGORY>
           <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
@@ -60,7 +60,7 @@
           <MEM-ALIGNMENT>32</MEM-ALIGNMENT>
           <NATIVE-DECLARATION>unsigned int</NATIVE-DECLARATION>
         </SW-BASE-TYPE>
-        <SW-BASE-TYPE UUID="8d43b1f1-07a5-4087-b08d-4af55cc5b4e0">
+        <SW-BASE-TYPE UUID="ab90936c-3ea7-4f53-890b-fa471ef5722b">
           <SHORT-NAME>uint8</SHORT-NAME>
           <CATEGORY>FIXED_LENGTH</CATEGORY>
           <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
@@ -68,7 +68,7 @@
           <MEM-ALIGNMENT>8</MEM-ALIGNMENT>
           <NATIVE-DECLARATION>unsigned char</NATIVE-DECLARATION>
         </SW-BASE-TYPE>
-        <SW-BASE-TYPE UUID="33a5b3f3-d708-4b6f-b560-ad88d59fd05d">
+        <SW-BASE-TYPE UUID="d5eb1aae-ef82-4e7e-bda5-d5b6da469cea">
           <SHORT-NAME>void</SHORT-NAME>
           <CATEGORY>FIXED_LENGTH</CATEGORY>
           <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
@@ -77,10 +77,10 @@
         </SW-BASE-TYPE>
       </ELEMENTS>
     </AR-PACKAGE>
-    <AR-PACKAGE UUID="8bff3cdb-7e2e-4796-aa65-55fa410f5f3e">
+    <AR-PACKAGE UUID="6ece7c6e-e65c-4505-8890-1a135d3780ac">
       <SHORT-NAME>ImplDataTypes</SHORT-NAME>
       <ELEMENTS>
-        <IMPLEMENTATION-DATA-TYPE UUID="46a94572-5cb4-41f5-b2b1-7891577ba893">
+        <IMPLEMENTATION-DATA-TYPE UUID="e893aa8f-db21-474d-a3b7-00b2e8b83fa9">
           <SHORT-NAME>boolean</SHORT-NAME>
           <CATEGORY>VALUE</CATEGORY>
           <SW-DATA-DEF-PROPS>
@@ -92,7 +92,7 @@
           </SW-DATA-DEF-PROPS>
           <TYPE-EMITTER>BSW</TYPE-EMITTER>
         </IMPLEMENTATION-DATA-TYPE>
-        <IMPLEMENTATION-DATA-TYPE UUID="18d1eb89-65eb-4ad1-a9ef-529684090fe9">
+        <IMPLEMENTATION-DATA-TYPE UUID="dd7a60b5-d043-4838-8971-a51011cfbda2">
           <SHORT-NAME>float32</SHORT-NAME>
           <CATEGORY>VALUE</CATEGORY>
           <SW-DATA-DEF-PROPS>
@@ -104,7 +104,7 @@
           </SW-DATA-DEF-PROPS>
           <TYPE-EMITTER>BSW</TYPE-EMITTER>
         </IMPLEMENTATION-DATA-TYPE>
-        <IMPLEMENTATION-DATA-TYPE UUID="ca6240fc-4da6-4a80-b125-860ca62b7459">
+        <IMPLEMENTATION-DATA-TYPE UUID="b544c3cf-1b9b-4787-86f4-c649b795bfb0">
           <SHORT-NAME>float64</SHORT-NAME>
           <CATEGORY>VALUE</CATEGORY>
           <SW-DATA-DEF-PROPS>
@@ -116,7 +116,7 @@
           </SW-DATA-DEF-PROPS>
           <TYPE-EMITTER>BSW</TYPE-EMITTER>
         </IMPLEMENTATION-DATA-TYPE>
-        <IMPLEMENTATION-DATA-TYPE UUID="a0c2ec60-a43b-4a2d-8254-50d44a1a3793">
+        <IMPLEMENTATION-DATA-TYPE UUID="66f79aa9-bce9-496a-8833-6e3509b8e5b1">
           <SHORT-NAME>sint16</SHORT-NAME>
           <CATEGORY>VALUE</CATEGORY>
           <SW-DATA-DEF-PROPS>
@@ -128,7 +128,7 @@
           </SW-DATA-DEF-PROPS>
           <TYPE-EMITTER>BSW</TYPE-EMITTER>
         </IMPLEMENTATION-DATA-TYPE>
-        <IMPLEMENTATION-DATA-TYPE UUID="2edd8d66-e980-43af-a371-8dae7186a69f">
+        <IMPLEMENTATION-DATA-TYPE UUID="e13640e3-35eb-42b9-bf9f-a52816e769de">
           <SHORT-NAME>sint32</SHORT-NAME>
           <CATEGORY>VALUE</CATEGORY>
           <SW-DATA-DEF-PROPS>
@@ -140,7 +140,7 @@
           </SW-DATA-DEF-PROPS>
           <TYPE-EMITTER>BSW</TYPE-EMITTER>
         </IMPLEMENTATION-DATA-TYPE>
-        <IMPLEMENTATION-DATA-TYPE UUID="7aa7b565-fbfc-4a40-a0fc-9321aad8cd60">
+        <IMPLEMENTATION-DATA-TYPE UUID="9ade1b94-882d-4802-8a92-99b1e726a453">
           <SHORT-NAME>sint8</SHORT-NAME>
           <CATEGORY>VALUE</CATEGORY>
           <SW-DATA-DEF-PROPS>
@@ -152,7 +152,7 @@
           </SW-DATA-DEF-PROPS>
           <TYPE-EMITTER>BSW</TYPE-EMITTER>
         </IMPLEMENTATION-DATA-TYPE>
-        <IMPLEMENTATION-DATA-TYPE UUID="b006c543-ebe1-4980-9e43-1ebbb1a378d8">
+        <IMPLEMENTATION-DATA-TYPE UUID="bd0de75a-fc2a-450c-850a-7c2d7ef44eb6">
           <SHORT-NAME>uint16</SHORT-NAME>
           <CATEGORY>VALUE</CATEGORY>
           <SW-DATA-DEF-PROPS>
@@ -164,7 +164,7 @@
           </SW-DATA-DEF-PROPS>
           <TYPE-EMITTER>BSW</TYPE-EMITTER>
         </IMPLEMENTATION-DATA-TYPE>
-        <IMPLEMENTATION-DATA-TYPE UUID="c44c65ff-92e9-4c48-9daf-5a0104ddd0e2">
+        <IMPLEMENTATION-DATA-TYPE UUID="02a5c8c3-0fc4-4316-815c-ba0a3167cf93">
           <SHORT-NAME>uint32</SHORT-NAME>
           <CATEGORY>VALUE</CATEGORY>
           <SW-DATA-DEF-PROPS>
@@ -176,7 +176,7 @@
           </SW-DATA-DEF-PROPS>
           <TYPE-EMITTER>BSW</TYPE-EMITTER>
         </IMPLEMENTATION-DATA-TYPE>
-        <IMPLEMENTATION-DATA-TYPE UUID="358adc97-9f57-4337-aeaa-b458f04098cc">
+        <IMPLEMENTATION-DATA-TYPE UUID="b7f9376a-60d0-4903-a3f0-5e1c7e8f6c34">
           <SHORT-NAME>uint8</SHORT-NAME>
           <CATEGORY>VALUE</CATEGORY>
           <SW-DATA-DEF-PROPS>
@@ -188,7 +188,7 @@
           </SW-DATA-DEF-PROPS>
           <TYPE-EMITTER>BSW</TYPE-EMITTER>
         </IMPLEMENTATION-DATA-TYPE>
-        <IMPLEMENTATION-DATA-TYPE UUID="f1a6ce99-84ef-4857-ae15-cc8ec054800c">
+        <IMPLEMENTATION-DATA-TYPE UUID="4783fa0a-7ade-41a2-85e3-5956b3ac25d9">
           <SHORT-NAME>void</SHORT-NAME>
           <CATEGORY>VALUE</CATEGORY>
           <SW-DATA-DEF-PROPS>
@@ -202,58 +202,68 @@
         </IMPLEMENTATION-DATA-TYPE>
       </ELEMENTS>
     </AR-PACKAGE>
-    <AR-PACKAGE UUID="1a13dc0c-9c4d-4bbd-b46b-f4b758ca9de8">
+    <AR-PACKAGE UUID="baec3d35-5739-40ed-9cdd-cb3003858c93">
       <SHORT-NAME>MappingSets</SHORT-NAME>
       <ELEMENTS>
-        <DATA-TYPE-MAPPING-SET UUID="150c633e-3cb1-456d-a461-6eb60ca34b7b">
+        <DATA-TYPE-MAPPING-SET UUID="d8d043a2-0c85-4908-b512-74a48f3b1dad">
           <SHORT-NAME>MappingSet</SHORT-NAME>
+          <MODE-REQUEST-TYPE-MAPS>
+            <MODE-REQUEST-TYPE-MAP>
+              <IMPLEMENTATION-DATA-TYPE-REF DEST="IMPLEMENTATION-DATA-TYPE">/ImplDataTypes/uint8</IMPLEMENTATION-DATA-TYPE-REF>
+              <MODE-GROUP-REF DEST="MODE-DECLARATION-GROUP">/PortInterfaces/ModeSwitch/SeatMode</MODE-GROUP-REF>
+            </MODE-REQUEST-TYPE-MAP>
+          </MODE-REQUEST-TYPE-MAPS>
         </DATA-TYPE-MAPPING-SET>
       </ELEMENTS>
     </AR-PACKAGE>
-    <AR-PACKAGE UUID="f79aa604-5e62-40cd-9b76-80c5501f1bc3">
+    <AR-PACKAGE UUID="5f8a7caa-be45-46ed-a2e6-31cdec496a52">
       <SHORT-NAME>PortInterfaces</SHORT-NAME>
       <AR-PACKAGES>
-        <AR-PACKAGE UUID="83b38fbf-8805-4341-ae2e-f7e406a69975">
+        <AR-PACKAGE UUID="7fe84c20-af0d-4431-b272-c29feed6a16b">
           <SHORT-NAME>ClientServer</SHORT-NAME>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="576148f7-7fc0-4de2-8c18-608c43eaf2af">
+          <SHORT-NAME>ModeSwitch</SHORT-NAME>
           <ELEMENTS>
-            <CLIENT-SERVER-INTERFACE UUID="94df266c-08c4-441e-9f46-0ed4e689645f">
-              <SHORT-NAME>CsIf_Encryption</SHORT-NAME>
+            <MODE-SWITCH-INTERFACE UUID="80b516ec-46d1-4851-b6f5-5761c54bc20b">
+              <SHORT-NAME>MsIf_SeatMode</SHORT-NAME>
               <IS-SERVICE>false</IS-SERVICE>
-              <OPERATIONS>
-                <CLIENT-SERVER-OPERATION UUID="7212d64c-1c85-4986-8511-23254cffb7b2">
-                  <SHORT-NAME>Opr_Encrypt</SHORT-NAME>
-                  <ARGUMENTS>
-                    <ARGUMENT-DATA-PROTOTYPE UUID="94e17155-3a6c-493b-90ff-fdfa3d6f2ee1">
-                      <SHORT-NAME>Arg_PlanData</SHORT-NAME>
-                      <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/ImplDataTypes/uint32</TYPE-TREF>
-                      <DIRECTION>IN</DIRECTION>
-                    </ARGUMENT-DATA-PROTOTYPE>
-                    <ARGUMENT-DATA-PROTOTYPE UUID="67b64400-3554-41ba-a59a-cea7ef420106">
-                      <SHORT-NAME>Arg_EncryptData</SHORT-NAME>
-                      <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/ImplDataTypes/uint32</TYPE-TREF>
-                      <DIRECTION>OUT</DIRECTION>
-                    </ARGUMENT-DATA-PROTOTYPE>
-                  </ARGUMENTS>
-                </CLIENT-SERVER-OPERATION>
-              </OPERATIONS>
-            </CLIENT-SERVER-INTERFACE>
+              <MODE-GROUP UUID="80a854c7-4c74-470e-a9c4-3bcd10015b24">
+                <SHORT-NAME>SeatMode</SHORT-NAME>
+                <TYPE-TREF DEST="MODE-DECLARATION-GROUP">/PortInterfaces/ModeSwitch/SeatMode</TYPE-TREF>
+              </MODE-GROUP>
+            </MODE-SWITCH-INTERFACE>
+            <MODE-DECLARATION-GROUP UUID="2f0903d6-9130-4215-8963-e56b3038f5e4">
+              <SHORT-NAME>SeatMode</SHORT-NAME>
+              <CATEGORY>ALPHABETIC_ORDER</CATEGORY>
+              <INITIAL-MODE-REF DEST="MODE-DECLARATION">/PortInterfaces/ModeSwitch/SeatMode/INIT</INITIAL-MODE-REF>
+              <MODE-DECLARATIONS>
+                <MODE-DECLARATION UUID="8fc7477b-f2a2-497e-861e-19329ab9c040">
+                  <SHORT-NAME>AUTO</SHORT-NAME>
+                </MODE-DECLARATION>
+                <MODE-DECLARATION UUID="cfe594a8-53ba-49fd-97dd-f175cac4c8ab">
+                  <SHORT-NAME>INIT</SHORT-NAME>
+                </MODE-DECLARATION>
+                <MODE-DECLARATION UUID="f57a300a-2251-41a6-8409-391697479811">
+                  <SHORT-NAME>MANUAL</SHORT-NAME>
+                </MODE-DECLARATION>
+              </MODE-DECLARATIONS>
+              <ON-TRANSITION-VALUE>255</ON-TRANSITION-VALUE>
+            </MODE-DECLARATION-GROUP>
           </ELEMENTS>
         </AR-PACKAGE>
-        <AR-PACKAGE UUID="e66e4488-5ed2-4edc-bc82-cffcd3178652">
-          <SHORT-NAME>ModeSwitch</SHORT-NAME>
-        </AR-PACKAGE>
-        <AR-PACKAGE UUID="fc662716-1cb3-4da4-94cd-ae5a1080bd29">
+        <AR-PACKAGE UUID="006ef087-3697-410e-9bd7-6f98b8eefe2e">
           <SHORT-NAME>SenderReceiver</SHORT-NAME>
         </AR-PACKAGE>
       </AR-PACKAGES>
     </AR-PACKAGE>
-    <AR-PACKAGE UUID="dd2aa055-988f-4df6-a680-274ab57e52ab">
+    <AR-PACKAGE UUID="be9208ee-d4c4-4b10-8add-9839239e83c1">
       <SHORT-NAME>SoftwareComponents</SHORT-NAME>
       <ELEMENTS>
-        <SWC-IMPLEMENTATION UUID="5d2f6b3c-0e78-4c4b-9658-29cfbda2c134">
-          <SHORT-NAME>Impl_SWC_EncryptionMgr</SHORT-NAME>
+        <SWC-IMPLEMENTATION UUID="bcfe2208-2f71-43d6-b268-66c87e210d0d">
+          <SHORT-NAME>Impl_SeatHandle</SHORT-NAME>
           <CODE-DESCRIPTORS>
-            <CODE UUID="3c2eb18f-e58e-45a7-8c53-ebc124d08588">
+            <CODE UUID="a1844a76-2704-4294-962b-d766ecf6cc92">
               <SHORT-NAME>Code</SHORT-NAME>
               <ARTIFACT-DESCRIPTORS>
                 <AUTOSAR-ENGINEERING-OBJECT>
@@ -264,17 +274,17 @@
             </CODE>
           </CODE-DESCRIPTORS>
           <PROGRAMMING-LANGUAGE>C</PROGRAMMING-LANGUAGE>
-          <RESOURCE-CONSUMPTION UUID="2326ce58-32bb-493d-9a07-4a81ac05df7c">
+          <RESOURCE-CONSUMPTION UUID="57f1f942-8e62-4f96-8ce0-fb8e71243194">
             <SHORT-NAME>ResourceConsumption</SHORT-NAME>
           </RESOURCE-CONSUMPTION>
           <SW-VERSION>1.0.0</SW-VERSION>
           <VENDOR-ID>255</VENDOR-ID>
-          <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/SoftwareComponents/SWC_EncryptionMgr/Ibhv_SWC_EncryptionMgr</BEHAVIOR-REF>
+          <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/SoftwareComponents/SeatHandle/Ibhv_SeatHandle</BEHAVIOR-REF>
         </SWC-IMPLEMENTATION>
-        <SWC-IMPLEMENTATION UUID="7d66711f-2b51-4316-9415-d207fc66c641">
-          <SHORT-NAME>Impl_SWC_SeatMgr</SHORT-NAME>
+        <SWC-IMPLEMENTATION UUID="a995c9a2-791f-4349-ae38-aef7b9bbaaa6">
+          <SHORT-NAME>Impl_SeatMgr</SHORT-NAME>
           <CODE-DESCRIPTORS>
-            <CODE UUID="b377f2b3-fe0b-4e5d-8b61-1221e7b024a0">
+            <CODE UUID="9ff660d2-0b5d-41d3-ace9-dfddf4524671">
               <SHORT-NAME>Code</SHORT-NAME>
               <ARTIFACT-DESCRIPTORS>
                 <AUTOSAR-ENGINEERING-OBJECT>
@@ -285,88 +295,109 @@
             </CODE>
           </CODE-DESCRIPTORS>
           <PROGRAMMING-LANGUAGE>C</PROGRAMMING-LANGUAGE>
-          <RESOURCE-CONSUMPTION UUID="33f37d25-fe7a-43d7-a7bd-889e1b09d292">
+          <RESOURCE-CONSUMPTION UUID="7c994c8c-d172-47f7-b325-3257110bf68a">
             <SHORT-NAME>ResourceConsumption</SHORT-NAME>
           </RESOURCE-CONSUMPTION>
           <SW-VERSION>1.0.0</SW-VERSION>
           <VENDOR-ID>255</VENDOR-ID>
-          <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/SoftwareComponents/SWC_SeatMgr/Ibhv_SWC_SeatMgr</BEHAVIOR-REF>
+          <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/SoftwareComponents/SeatMgr/Ibhv_SeatMgr</BEHAVIOR-REF>
         </SWC-IMPLEMENTATION>
-        <APPLICATION-SW-COMPONENT-TYPE UUID="41c6533c-ed81-425c-96ad-2211de9b1356">
-          <SHORT-NAME>SWC_EncryptionMgr</SHORT-NAME>
+        <APPLICATION-SW-COMPONENT-TYPE UUID="a863a294-7c0b-4179-adaa-b26aaafe6234">
+          <SHORT-NAME>SeatHandle</SHORT-NAME>
           <PORTS>
-            <P-PORT-PROTOTYPE UUID="55b0bf00-2b2a-44a5-8655-7093df20eae0">
-              <SHORT-NAME>ppEncrypt</SHORT-NAME>
-              <PROVIDED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/PortInterfaces/ClientServer/CsIf_Encryption</PROVIDED-INTERFACE-TREF>
-            </P-PORT-PROTOTYPE>
+            <R-PORT-PROTOTYPE UUID="adbcc824-fd2b-49b8-a683-2d292ec52aab">
+              <SHORT-NAME>rpSeatCtrl</SHORT-NAME>
+              <REQUIRED-INTERFACE-TREF DEST="MODE-SWITCH-INTERFACE">/PortInterfaces/ModeSwitch/MsIf_SeatMode</REQUIRED-INTERFACE-TREF>
+            </R-PORT-PROTOTYPE>
           </PORTS>
           <INTERNAL-BEHAVIORS>
-            <SWC-INTERNAL-BEHAVIOR UUID="cdbf0591-ac00-436c-9bff-ef3bcb114e96">
-              <SHORT-NAME>Ibhv_SWC_EncryptionMgr</SHORT-NAME>
+            <SWC-INTERNAL-BEHAVIOR UUID="b32abaec-2a2d-429b-b3bc-5bf5e9999c6a">
+              <SHORT-NAME>Ibhv_SeatHandle</SHORT-NAME>
               <DATA-TYPE-MAPPING-REFS>
                 <DATA-TYPE-MAPPING-REF DEST="DATA-TYPE-MAPPING-SET">/MappingSets/MappingSet</DATA-TYPE-MAPPING-REF>
               </DATA-TYPE-MAPPING-REFS>
               <EVENTS>
-                <OPERATION-INVOKED-EVENT UUID="e47d5122-c71e-452d-8b90-892f740c2bb0">
-                  <SHORT-NAME>OIE_ppEncrypt_Opr_Encrypt</SHORT-NAME>
-                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/SoftwareComponents/SWC_EncryptionMgr/Ibhv_SWC_EncryptionMgr/RE_EncrptMgr_Encrypt</START-ON-EVENT-REF>
-                  <OPERATION-IREF>
-                    <CONTEXT-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SoftwareComponents/SWC_EncryptionMgr/ppEncrypt</CONTEXT-P-PORT-REF>
-                    <TARGET-PROVIDED-OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/PortInterfaces/ClientServer/CsIf_Encryption/Opr_Encrypt</TARGET-PROVIDED-OPERATION-REF>
-                  </OPERATION-IREF>
-                </OPERATION-INVOKED-EVENT>
+                <SWC-MODE-SWITCH-EVENT UUID="0dfba9f1-3690-4e22-8930-bb658bd6158a">
+                  <SHORT-NAME>MSE_rpSeatCtrl_AUTO_ON_ENTRY</SHORT-NAME>
+                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/SoftwareComponents/SeatHandle/Ibhv_SeatHandle/RE_SeatCtrl_AUTO</START-ON-EVENT-REF>
+                  <ACTIVATION>ON-ENTRY</ACTIVATION>
+                  <MODE-IREFS>
+                    <MODE-IREF>
+                      <CONTEXT-PORT-REF DEST="R-PORT-PROTOTYPE">/SoftwareComponents/SeatHandle/rpSeatCtrl</CONTEXT-PORT-REF>
+                      <CONTEXT-MODE-DECLARATION-GROUP-PROTOTYPE-REF DEST="MODE-DECLARATION-GROUP-PROTOTYPE">/PortInterfaces/ModeSwitch/MsIf_SeatMode/SeatMode</CONTEXT-MODE-DECLARATION-GROUP-PROTOTYPE-REF>
+                      <TARGET-MODE-DECLARATION-REF DEST="MODE-DECLARATION">/PortInterfaces/ModeSwitch/SeatMode/AUTO</TARGET-MODE-DECLARATION-REF>
+                    </MODE-IREF>
+                  </MODE-IREFS>
+                </SWC-MODE-SWITCH-EVENT>
+                <SWC-MODE-SWITCH-EVENT UUID="13aee7b0-38b8-4c36-baa1-2416ecdbcc46">
+                  <SHORT-NAME>MSE_rpSeatCtrl_MANUAL_ON_ENTRY</SHORT-NAME>
+                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/SoftwareComponents/SeatHandle/Ibhv_SeatHandle/RE_SeatCtrl_MANUAL</START-ON-EVENT-REF>
+                  <ACTIVATION>ON-ENTRY</ACTIVATION>
+                  <MODE-IREFS>
+                    <MODE-IREF>
+                      <CONTEXT-PORT-REF DEST="R-PORT-PROTOTYPE">/SoftwareComponents/SeatHandle/rpSeatCtrl</CONTEXT-PORT-REF>
+                      <CONTEXT-MODE-DECLARATION-GROUP-PROTOTYPE-REF DEST="MODE-DECLARATION-GROUP-PROTOTYPE">/PortInterfaces/ModeSwitch/MsIf_SeatMode/SeatMode</CONTEXT-MODE-DECLARATION-GROUP-PROTOTYPE-REF>
+                      <TARGET-MODE-DECLARATION-REF DEST="MODE-DECLARATION">/PortInterfaces/ModeSwitch/SeatMode/MANUAL</TARGET-MODE-DECLARATION-REF>
+                    </MODE-IREF>
+                  </MODE-IREFS>
+                </SWC-MODE-SWITCH-EVENT>
               </EVENTS>
               <HANDLE-TERMINATION-AND-RESTART>NO-SUPPORT</HANDLE-TERMINATION-AND-RESTART>
               <RUNNABLES>
-                <RUNNABLE-ENTITY UUID="bb967146-cf3b-4b91-9378-45360427c9ef">
-                  <SHORT-NAME>RE_EncrptMgr_Encrypt</SHORT-NAME>
+                <RUNNABLE-ENTITY UUID="7b6f61e1-d186-4c38-a493-3546ac89e151">
+                  <SHORT-NAME>RE_SeatCtrl_AUTO</SHORT-NAME>
                   <MINIMUM-START-INTERVAL>0.0</MINIMUM-START-INTERVAL>
                   <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
-                  <SYMBOL>RE_EncrptMgr_Encrypt</SYMBOL>
+                  <SYMBOL>RE_SeatCtrl_AUTO</SYMBOL>
+                </RUNNABLE-ENTITY>
+                <RUNNABLE-ENTITY UUID="8e547ef0-5c5e-4d12-a2bf-d610a083da2e">
+                  <SHORT-NAME>RE_SeatCtrl_MANUAL</SHORT-NAME>
+                  <MINIMUM-START-INTERVAL>0.0</MINIMUM-START-INTERVAL>
+                  <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
+                  <SYMBOL>RE_SeatCtrl_MANUAL</SYMBOL>
                 </RUNNABLE-ENTITY>
               </RUNNABLES>
               <SUPPORTS-MULTIPLE-INSTANTIATION>false</SUPPORTS-MULTIPLE-INSTANTIATION>
             </SWC-INTERNAL-BEHAVIOR>
           </INTERNAL-BEHAVIORS>
         </APPLICATION-SW-COMPONENT-TYPE>
-        <APPLICATION-SW-COMPONENT-TYPE UUID="e68c35d4-5e57-4ddb-a15b-ce61c551c601">
-          <SHORT-NAME>SWC_SeatMgr</SHORT-NAME>
+        <APPLICATION-SW-COMPONENT-TYPE UUID="06e3e6e0-711e-4628-b912-9d76601cc9a6">
+          <SHORT-NAME>SeatMgr</SHORT-NAME>
           <PORTS>
-            <R-PORT-PROTOTYPE UUID="d3356cc6-325c-4d5e-a3c4-8386ee4cf4dc">
-              <SHORT-NAME>rpEncrypt</SHORT-NAME>
-              <REQUIRED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/PortInterfaces/ClientServer/CsIf_Encryption</REQUIRED-INTERFACE-TREF>
-            </R-PORT-PROTOTYPE>
+            <P-PORT-PROTOTYPE UUID="905a2f5a-3ceb-4379-a62d-386f2620697e">
+              <SHORT-NAME>pp_SeatCtrl</SHORT-NAME>
+              <PROVIDED-INTERFACE-TREF DEST="MODE-SWITCH-INTERFACE">/PortInterfaces/ModeSwitch/MsIf_SeatMode</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
           </PORTS>
           <INTERNAL-BEHAVIORS>
-            <SWC-INTERNAL-BEHAVIOR UUID="c0983cf9-a4ae-4c54-a7f1-fa1cfba4829b">
-              <SHORT-NAME>Ibhv_SWC_SeatMgr</SHORT-NAME>
+            <SWC-INTERNAL-BEHAVIOR UUID="28c9e404-bb60-46f3-b352-b756ee553e2d">
+              <SHORT-NAME>Ibhv_SeatMgr</SHORT-NAME>
               <DATA-TYPE-MAPPING-REFS>
                 <DATA-TYPE-MAPPING-REF DEST="DATA-TYPE-MAPPING-SET">/MappingSets/MappingSet</DATA-TYPE-MAPPING-REF>
               </DATA-TYPE-MAPPING-REFS>
               <EVENTS>
-                <TIMING-EVENT UUID="0efb135f-7916-49b4-8cf5-37db940e4a5f">
-                  <SHORT-NAME>TE_RE_ChrgIf_MainFunction_50ms</SHORT-NAME>
-                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/SoftwareComponents/SWC_SeatMgr/Ibhv_SWC_SeatMgr/RE_ChrgIf_MainFunction</START-ON-EVENT-REF>
-                  <PERIOD>0.05</PERIOD>
+                <TIMING-EVENT UUID="e2ef6543-1132-488f-bfbc-99f39384db7d">
+                  <SHORT-NAME>TE_SeatMgr_MainFunction_500ms</SHORT-NAME>
+                  <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/SoftwareComponents/SeatMgr/Ibhv_SeatMgr/SeatMgr_MainFunction</START-ON-EVENT-REF>
+                  <PERIOD>0.5</PERIOD>
                 </TIMING-EVENT>
               </EVENTS>
               <HANDLE-TERMINATION-AND-RESTART>NO-SUPPORT</HANDLE-TERMINATION-AND-RESTART>
               <RUNNABLES>
-                <RUNNABLE-ENTITY UUID="c3e386ba-0c5e-4783-9dc8-398cecf09e78">
-                  <SHORT-NAME>RE_ChrgIf_MainFunction</SHORT-NAME>
+                <RUNNABLE-ENTITY UUID="4ecf9cdb-6e5f-44a9-adc9-a2ce3a42e7f0">
+                  <SHORT-NAME>SeatMgr_MainFunction</SHORT-NAME>
                   <MINIMUM-START-INTERVAL>0.0</MINIMUM-START-INTERVAL>
                   <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
-                  <SERVER-CALL-POINTS>
-                    <SYNCHRONOUS-SERVER-CALL-POINT UUID="25bcba1d-6c18-4778-8012-c07193e6facd">
-                      <SHORT-NAME>SCP_rpEncrypt_Opr_Encrypt</SHORT-NAME>
-                      <OPERATION-IREF>
-                        <CONTEXT-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SoftwareComponents/SWC_SeatMgr/rpEncrypt</CONTEXT-R-PORT-REF>
-                        <TARGET-REQUIRED-OPERATION-REF DEST="CLIENT-SERVER-OPERATION">/PortInterfaces/ClientServer/CsIf_Encryption/Opr_Encrypt</TARGET-REQUIRED-OPERATION-REF>
-                      </OPERATION-IREF>
-                      <TIMEOUT>0.0</TIMEOUT>
-                    </SYNCHRONOUS-SERVER-CALL-POINT>
-                  </SERVER-CALL-POINTS>
-                  <SYMBOL>RE_ChrgIf_MainFunction</SYMBOL>
+                  <MODE-SWITCH-POINTS>
+                    <MODE-SWITCH-POINT UUID="459411f6-b169-4f76-a330-b70b50b19009">
+                      <SHORT-NAME>MSP_pp_SeatCtrl_pp_SeatCtrl</SHORT-NAME>
+                      <MODE-GROUP-IREF>
+                        <CONTEXT-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SoftwareComponents/SeatMgr/pp_SeatCtrl</CONTEXT-P-PORT-REF>
+                        <TARGET-MODE-GROUP-REF DEST="MODE-DECLARATION-GROUP-PROTOTYPE">/PortInterfaces/ModeSwitch/MsIf_SeatMode/SeatMode</TARGET-MODE-GROUP-REF>
+                      </MODE-GROUP-IREF>
+                    </MODE-SWITCH-POINT>
+                  </MODE-SWITCH-POINTS>
+                  <SYMBOL>SeatMgr_MainFunction</SYMBOL>
                 </RUNNABLE-ENTITY>
               </RUNNABLES>
               <SUPPORTS-MULTIPLE-INSTANTIATION>false</SUPPORTS-MULTIPLE-INSTANTIATION>
@@ -375,31 +406,31 @@
         </APPLICATION-SW-COMPONENT-TYPE>
       </ELEMENTS>
     </AR-PACKAGE>
-    <AR-PACKAGE UUID="ec4fa1a7-5903-47a6-8a22-a3a49b1d6b63">
+    <AR-PACKAGE UUID="dd42fe13-33a5-4149-b752-dfa62011540f">
       <SHORT-NAME>Compositions</SHORT-NAME>
       <ELEMENTS>
-        <COMPOSITION-SW-COMPONENT-TYPE UUID="2f6383a4-d13c-4780-8545-96f5c955f65d">
-          <SHORT-NAME>Encrypt_CSComposition</SHORT-NAME>
+        <COMPOSITION-SW-COMPONENT-TYPE UUID="35a1a363-a614-4df3-862f-296e8d62ca0b">
+          <SHORT-NAME>SeatHandle_MSComposition</SHORT-NAME>
           <COMPONENTS>
-            <SW-COMPONENT-PROTOTYPE UUID="f21a8687-7206-4d9c-a0f0-3f980b6287ae">
-              <SHORT-NAME>SWC_EncryptionMgr</SHORT-NAME>
-              <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/SoftwareComponents/SWC_EncryptionMgr</TYPE-TREF>
+            <SW-COMPONENT-PROTOTYPE UUID="80c4826a-a77f-492e-bf05-f13309ef5561">
+              <SHORT-NAME>SeatHandle</SHORT-NAME>
+              <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/SoftwareComponents/SeatHandle</TYPE-TREF>
             </SW-COMPONENT-PROTOTYPE>
-            <SW-COMPONENT-PROTOTYPE UUID="760bb1d4-e1bc-4661-bbbe-a2e15b67f244">
-              <SHORT-NAME>SWC_SeatMgr</SHORT-NAME>
-              <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/SoftwareComponents/SWC_SeatMgr</TYPE-TREF>
+            <SW-COMPONENT-PROTOTYPE UUID="189d05cc-c0be-47f3-bd5b-3fba8a4b731a">
+              <SHORT-NAME>SeatMgr</SHORT-NAME>
+              <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/SoftwareComponents/SeatMgr</TYPE-TREF>
             </SW-COMPONENT-PROTOTYPE>
           </COMPONENTS>
           <CONNECTORS>
-            <ASSEMBLY-SW-CONNECTOR UUID="2c6f179b-bdd3-4a79-88a2-43a671c1c6b2">
-              <SHORT-NAME>SWC_EncryptionMgr_ppEncrypt_SWC_SeatMgr_rpEncrypt</SHORT-NAME>
+            <ASSEMBLY-SW-CONNECTOR UUID="34ca92ab-1f19-4e00-8673-d42eb7723e4a">
+              <SHORT-NAME>SeatMgr_pp_SeatCtrl_SeatHandle_rpSeatCtrl</SHORT-NAME>
               <PROVIDER-IREF>
-                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Compositions/Encrypt_CSComposition/SWC_EncryptionMgr</CONTEXT-COMPONENT-REF>
-                <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SoftwareComponents/SWC_EncryptionMgr/ppEncrypt</TARGET-P-PORT-REF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Compositions/SeatHandle_MSComposition/SeatMgr</CONTEXT-COMPONENT-REF>
+                <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SoftwareComponents/SeatMgr/pp_SeatCtrl</TARGET-P-PORT-REF>
               </PROVIDER-IREF>
               <REQUESTER-IREF>
-                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Compositions/Encrypt_CSComposition/SWC_SeatMgr</CONTEXT-COMPONENT-REF>
-                <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SoftwareComponents/SWC_SeatMgr/rpEncrypt</TARGET-R-PORT-REF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/Compositions/SeatHandle_MSComposition/SeatHandle</CONTEXT-COMPONENT-REF>
+                <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SoftwareComponents/SeatHandle/rpSeatCtrl</TARGET-R-PORT-REF>
               </REQUESTER-IREF>
             </ASSEMBLY-SW-CONNECTOR>
           </CONNECTORS>
